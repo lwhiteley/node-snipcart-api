@@ -1,0 +1,49 @@
+{
+  "name": "snipcart-api",
+  "version": "0.0.1",
+  "description": "implementation of the snipcart api",
+  "main": "index.js",
+  "scripts": {
+    "pre-commit:message": "echo \"pre-commit: check running...\" && exit 0",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "nsp": "nsp check",
+    "check": "run-s nsp lint",
+    "pretest": "run-s check",
+    "test": "run-s test:script",
+    "test:script": "echo \"WARN: no test specified\" && exit 0"
+  },
+  "pre-commit": [
+    "pre-commit:message",
+    "pretest"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwhiteley/node-snipcart-api.git"
+  },
+  "keywords": [
+    "snipcart",
+    "ecommerce",
+    "api"
+  ],
+  "author": "Layton Whiteley",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lwhiteley/node-snipcart-api/issues"
+  },
+  "homepage": "https://github.com/lwhiteley/node-snipcart-api#readme",
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "npm-run-all": "^4.1.2",
+    "nsp": "^3.1.0",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bluebird": "^3.5.1",
+    "lodash": "^4.17.4",
+    "string-template": "^1.0.0"
+  }
+}
