@@ -1,6 +1,6 @@
 {
   "name": "snipcart-api",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "implementation of the snipcart api",
   "main": "index.js",
   "scripts": {
@@ -42,7 +42,6 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
-    "bluebird": "^3.5.1",
     "lodash": "^4.17.4",
     "string-template": "^1.0.0"
   }
