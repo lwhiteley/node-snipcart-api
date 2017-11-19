@@ -18,7 +18,7 @@ This can be set by using an environment variable `SECRET_API_KEY`
 OR
 
 ```js
-const snipcart = require('snipcart');
+const snipcart = require('snipcart-api');
 snipcart.configure('SECRET_API_KEY', SECRET_API_KEY);
 ```
 
