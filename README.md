@@ -2,6 +2,14 @@
 
 implementation of the snipcart api
 
+[![npm version](https://badge.fury.io/js/snipcart-api.svg)](https://badge.fury.io/js/snipcart-api)
+
+## Install
+
+```bash
+npm i --save snipcart-api
+```
+
 ## Configuration
 
 The api requires a [Secret API Key](https://docs.snipcart.com/merchant-dashboard/account-configurations#2-api-keys).
