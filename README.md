@@ -94,7 +94,8 @@ All Methods accept a single param (`options` *{Object}*).
 eg.
 
 ```js
-api.refunds
+const snipcart = require('snipcart-api');
+snipcart.api.refunds
     .getOne({
         urlParams: {
             id: '2223490d-84c1-480c-b713-50cb0b819313',
