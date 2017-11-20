@@ -1,6 +1,6 @@
 {
   "name": "snipcart-api",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "implementation of the snipcart api",
   "main": "index.js",
   "scripts": {
